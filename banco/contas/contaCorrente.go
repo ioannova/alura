@@ -1,7 +1,7 @@
 package contas
 
 import (
-	"github.com/alura-go/banco/clientes"
+	"github.com/alura-golang/banco/clientes"
 )
 
 type ContaCorrente struct {

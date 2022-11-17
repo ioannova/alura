@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/alura-go/app-web/controllers"
+	"github.com/alura-golang/app-web/controllers"
 )
 
 func Run() {

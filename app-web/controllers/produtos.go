@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/alura-go/app-web/models"
+	"github.com/alura-golang/app-web/models"
 )
 
 var temp = template.Must(template.ParseGlob("templates/*.html"))
