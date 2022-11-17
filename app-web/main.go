@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/alura/go/app-web/routes"
+	"github.com/alura-go/app-web/routes"
 
 	_ "github.com/lib/pq"
 )

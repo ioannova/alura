@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/alura/go/app-web/database"
+	"github.com/alura-go/app-web/database"
 )
 
 type Produto struct {
