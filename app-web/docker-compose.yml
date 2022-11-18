@@ -6,7 +6,9 @@ services:
     restart: always
     container_name: postgres
     environment:
-      POSTGRES_PASSWORD: example
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=example
+      - POSTGRES_DB=root 
     ports:
       - 5432:5432
   adminer:
